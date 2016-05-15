@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>dig</class>
+ <widget class="QWidget" name="dig">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -16,27 +16,27 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>70</x>
      <y>140</y>
      <width>93</width>
      <height>28</height>
     </rect>
    </property>
    <property name="text">
-    <string>start</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>240</x>
      <y>140</y>
      <width>93</width>
      <height>28</height>
     </rect>
    </property>
    <property name="text">
-    <string>exit</string>
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>
@@ -45,32 +45,32 @@
   <connection>
    <sender>pushButton</sender>
    <signal>clicked()</signal>
-   <receiver>Form</receiver>
+   <receiver>dig</receiver>
    <slot>hide()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>95</x>
-     <y>148</y>
+     <x>133</x>
+     <y>155</y>
     </hint>
     <hint type="destinationlabel">
-     <x>116</x>
-     <y>201</y>
+     <x>125</x>
+     <y>213</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
-   <receiver>Form</receiver>
+   <receiver>dig</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>261</x>
-     <y>156</y>
+     <x>288</x>
+     <y>153</y>
     </hint>
     <hint type="destinationlabel">
-     <x>275</x>
-     <y>214</y>
+     <x>336</x>
+     <y>236</y>
     </hint>
    </hints>
   </connection>

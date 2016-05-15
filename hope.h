@@ -19,6 +19,7 @@ public :
 
 public slots:
      void create();
+     void receivelogin();
 };
 
 #endif // HOPE_H

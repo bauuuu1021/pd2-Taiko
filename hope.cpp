@@ -76,6 +76,11 @@ void hope::create()
 
     }
 }
+void hope::receivelogin()
+{
+    this->show();//显示主窗口
+}
+
 //exchange qdebug with "put drum on the scene"
 
 /*******************************************

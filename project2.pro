@@ -17,14 +17,16 @@ SOURCES += main.cpp \
     drum2.cpp \
     hope.cpp \
     score.cpp \
-    key.cpp
+    key.cpp \
+    dig.cpp
 
 HEADERS  += \
     hope.h \
     drum.h \
     drum2.h \
     score.h \
-    key.h
+    key.h \
+    dig.h
 
 FORMS    += \
-    form.ui
+    dig.ui
